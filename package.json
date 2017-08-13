@@ -1,0 +1,23 @@
+{
+  "name": "wiki-viewer",
+  "version": "1.0.0",
+  "description": "\\",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMaterial/wiki-viewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMaterial/wiki-viewer/issues"
+  },
+  "homepage": "https://github.com/DevMaterial/wiki-viewer#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
