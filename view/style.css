@@ -31,6 +31,14 @@ p {
   max-width: 600px;
 }
 
+h2 {
+  text-align: center;
+  color: #ffcdd2;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
 .search {
   padding-bottom: 25px;
 }

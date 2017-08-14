@@ -11,6 +11,7 @@ console.log(results);
 submit.addEventListener('click', function(){
   var searchTerm = document.querySelector('input[name="search"]').value;
   var url = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + searchTerm + "&format=json&callback=?";
+  $(results).prepend('<h2>Uno Momento...</h2>');
   $.ajax({
     type: 'GET',
     url: url,
